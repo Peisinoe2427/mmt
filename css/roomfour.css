@@ -1,0 +1,9 @@
+.hidden-number {
+  font-size: 5rem;
+  color: white;
+  justify-self: end;
+}
+
+.hidden-number:hover {
+  color: red;
+}
