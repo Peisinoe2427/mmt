@@ -1,0 +1,47 @@
+body {
+    height: 100vh;
+    font-family: monospace;
+    font-size: 1rem;
+    display: grid;
+    place-items: center;
+    gap: 1rem;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap: 1rem;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+.frame {
+    padding: 15rem;
+    border-style: dashed;
+}
+
+.visually-hidden {
+    font-size: 60px;
+    width: 60px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.container {
+    align-self: flex-start;
+    width: 60px;
+}
+
+.container:hover .visually-hidden {
+    opacity: 1;
+}
+
+.room-button{
+    width: auto;
+    font-size: 25px;
+    align-self: center;
+}

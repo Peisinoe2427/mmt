@@ -92,3 +92,4 @@ form:has(:invalid) button {
   opacity: 0.1;
   background-color: #ff0000;
 }
+
